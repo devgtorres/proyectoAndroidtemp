@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+    <group android:checkableBehavior="single">
+        <item android:id="@+id/nav_inicio"
+            android:title="@string/menu_inicio" />
+        <item android:id="@+id/nav_favoritos"
+            android:title="@string/menu_favoritos"/>
+        <item android:id="@+id/nav_ingresar"
+            android:title="@string/menu_ingresar"/>
+        <item android:id="@+id/nav_buscar"
+            android:title="@string/menu_buscar" />
+        <item android:id="@+id/nav_configuracion"
+            android:title="@string/menu_configuracion" />
+        <item android:id="@+id/nav_terminos_y_condiciones"
+            android:title="@string/menu_terminos_y_condiciones" />
+        <item android:id="@+id/nav_ayuda"
+        android:title="@string/menu_ayuda" />
+        <item android:id="@+id/nav_quit"
+            android:title="@string/salir"/>
+    </group>
+</menu>
